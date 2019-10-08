@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.GameFramework">
+      <UniqueIdentifier>{c9062f82-36d0-494a-8ef1-dfab4ef2aa0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{5ae1b7b3-198a-486f-8070-87a80e73a5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Logo">
+      <UniqueIdentifier>{882c0078-7cd3-4b89-8b8c-a6895cc4e55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Game">
+      <UniqueIdentifier>{e5e35988-33f2-4139-b715-55de10875909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Over">
+      <UniqueIdentifier>{65b2a0c4-2538-45df-9f0a-ee02a0414439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{3902a17e-f92a-423d-a689-8d5cebe639e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.BackGround">
+      <UniqueIdentifier>{76075fa4-20a7-4419-a971-12fce2b77ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Manager">
+      <UniqueIdentifier>{58b95809-ca53-4106-888c-cdaf171c164c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Manager\01.BitMap">
+      <UniqueIdentifier>{a975c606-4287-4ebd-ab16-8da59a211cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Manager\02.Font">
+      <UniqueIdentifier>{c3b9f988-ed58-4360-a3d4-f8bfa779969b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Manager\03.Color">
+      <UniqueIdentifier>{e1d2860c-2879-4534-b4b7-19379b50ba1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.Card">
+      <UniqueIdentifier>{2f612747-c96e-4bde-85fd-24487945824d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\03.UI">
+      <UniqueIdentifier>{77e97f19-b62b-4e10-bca0-a8538c040ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Manager\04.Sound">
+      <UniqueIdentifier>{a64048db-6f32-4bb2-9510-5b6f4fa1d4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Manager\05.Point">
+      <UniqueIdentifier>{b06c4a7a-1cf0-4faf-8c41-1d712646263a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player">
+      <UniqueIdentifier>{6ba99eef-c4c3-482d-8e34-6c022605cb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\05.Zombie">
+      <UniqueIdentifier>{c45e57d6-5b76-48b5-b217-f60ea850732d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player\01.Sun_Player">
+      <UniqueIdentifier>{38873d3b-8855-4cc8-8302-676c9814b025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player\02.Attack_Player">
+      <UniqueIdentifier>{593c05ab-4ea0-4a84-9deb-0d9944846ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player\03.Shield_Player">
+      <UniqueIdentifier>{4ea3b180-06c4-48db-8422-d17fabea7dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\06.Mineral">
+      <UniqueIdentifier>{fdb002b7-3b7d-4c62-9f89-07b0ef2302ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player\04.Bomb_Player">
+      <UniqueIdentifier>{0e6357b9-4bce-4fdc-8946-bdfd7d970de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player\05.Snow_Player">
+      <UniqueIdentifier>{99bdb1ed-e2ef-47b3-b9e1-6f078aa85d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Player\06.Parabola_Player">
+      <UniqueIdentifier>{e46ba5b6-ff6c-45b9-91d1-9ab92137cc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\05.Zombie\01.Normal_Zombie">
+      <UniqueIdentifier>{e40e00ca-21fc-43da-8365-c3922fedc2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\05.Zombie\02.Strong_Zombie">
+      <UniqueIdentifier>{8dd0eac9-696f-4e8e-986a-e516c14db771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\07.Explosion">
+      <UniqueIdentifier>{290f9fc3-72e4-4a2c-9aeb-06664a233cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\08.Bullet">
+      <UniqueIdentifier>{ac72ecf3-d064-40b2-9444-8cfa1c1731d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\08.Bullet\01.Normal">
+      <UniqueIdentifier>{18945d12-1e9b-41b2-a6f8-3be01d4d75b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\08.Bullet\02.Snow">
+      <UniqueIdentifier>{d55c83c2-1e3d-4d00-bf3c-0e64bb97f40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\08.Bullet\03.Parabola">
+      <UniqueIdentifier>{c06d0444-9784-4d61-9efa-6cf7a2a21f1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieDefense.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>01.GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="OverScene.h">
+      <Filter>02.Scene\03.Over</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>03.Object\01.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>04.Manager\01.BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>02.Scene\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>02.Scene\02.Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FontUI.h">
+      <Filter>04.Manager\02.Font</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoColor.h">
+      <Filter>04.Manager\03.Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>03.Object\02.Card</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>03.Object\03.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>04.Manager\04.Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>04.Manager\05.Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.Object\04.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SunPlayer.h">
+      <Filter>03.Object\04.Player\01.Sun_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackPlayer.h">
+      <Filter>03.Object\04.Player\02.Attack_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldPlayer.h">
+      <Filter>03.Object\04.Player\03.Shield_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mineral.h">
+      <Filter>03.Object\06.Mineral</Filter>
+    </ClInclude>
+    <ClInclude Include="BombPlayer.h">
+      <Filter>03.Object\04.Player\04.Bomb_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowPlayer.h">
+      <Filter>03.Object\04.Player\05.Snow_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ParabolaPlayer.h">
+      <Filter>03.Object\04.Player\06.Parabola_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>03.Object\05.Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalZombie.h">
+      <Filter>03.Object\05.Zombie\01.Normal_Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongZombie.h">
+      <Filter>03.Object\05.Zombie\02.Strong_Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>03.Object\07.Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>03.Object\08.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>03.Object\08.Bullet\01.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowBullet.h">
+      <Filter>03.Object\08.Bullet\02.Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="ParabolaBullet.h">
+      <Filter>03.Object\08.Bullet\03.Parabola</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieDefense.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>01.GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="OverScene.cpp">
+      <Filter>02.Scene\03.Over</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>03.Object\01.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>04.Manager\01.BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>02.Scene\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>02.Scene\02.Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoColor.cpp">
+      <Filter>04.Manager\03.Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>03.Object\02.Card</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>03.Object\03.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>04.Manager\04.Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>04.Manager\05.Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.Object\04.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SunPlayer.cpp">
+      <Filter>03.Object\04.Player\01.Sun_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackPlayer.cpp">
+      <Filter>03.Object\04.Player\02.Attack_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldPlayer.cpp">
+      <Filter>03.Object\04.Player\03.Shield_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mineral.cpp">
+      <Filter>03.Object\06.Mineral</Filter>
+    </ClCompile>
+    <ClCompile Include="BombPlayer.cpp">
+      <Filter>03.Object\04.Player\04.Bomb_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowPlayer.cpp">
+      <Filter>03.Object\04.Player\05.Snow_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ParabolaPlayer.cpp">
+      <Filter>03.Object\04.Player\06.Parabola_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>03.Object\05.Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalZombie.cpp">
+      <Filter>03.Object\05.Zombie\01.Normal_Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongZombie.cpp">
+      <Filter>03.Object\05.Zombie\02.Strong_Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>03.Object\07.Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>03.Object\08.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>03.Object\08.Bullet\01.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowBullet.cpp">
+      <Filter>03.Object\08.Bullet\02.Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="ParabolaBullet.cpp">
+      <Filter>03.Object\08.Bullet\03.Parabola</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZombieDefense.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ZombieDefense.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmod64.dll" />
+  </ItemGroup>
+</Project>
